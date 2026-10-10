@@ -13,15 +13,21 @@ https://www.tinkercad.com/things/7dlm4zVyjRU-chng-trm?sharecode=TaFs33_5gWnSnod-
 - Đèn LED, điện trở
 
 ## Cách chạy mô phỏng
-1. Mở link Tinkercad ở trên, bấm "Copy and Edit" nếu muốn chỉnh sửa.
-2. Bấm "Start Simulation".
-3. Kích hoạt cảm biến PIR để xem còi và đèn báo động.
+1. Mở link Tinkercad ở trên và bấm Simulate để chạy thử.
+2. Muốn chỉnh sửa, đăng nhập tài khoản Tinkercad (miễn phí) rồi bấm Tinker this để tạo bản sao riêng.
+3. Kích hoạt cảm biến PIR để xem còi và đèn LED báo động.
 
 ## Sơ đồ mạch
 ![Sơ đồ mạch](so-do-mach.jpg)
 
+## Nguyên lý hoạt động
+Cảm biến PIR phát hiện chuyển động thì Arduino bật còi và đèn LED, hết chuyển động thì tắt.
+
+## ## Phần tác giả thực hiện
+- Thiết kế sơ đồ mạch trên Tinkercad
+- Viết mã nguồn Arduino (chong_trom.ino)
 ## Đóng góp
 Mọi người có thể fork dự án hoặc gửi Pull Request/Issue để góp ý.
 
 ## Giấy phép
-MIT License
+MIT License, thiết kế Tinkercad theo CC-BY 3.0.
